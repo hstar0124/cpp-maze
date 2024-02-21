@@ -23,6 +23,7 @@ public:
 private:
 	void CalculatePathRightHand();
 	void CalculatePathBFS();
+	void CalculatePathAStar();
 
 private:
 	Pos				_pos;
